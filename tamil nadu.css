@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(47, 45, 45, 0.75)),url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1920px-Altja_j%C3%B5gi_Lahemaal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+ }
+ .div1{
+   margin-left: 5px;
+   margin-top: 4px;
+   border-radius: 5px;
+   font-size: 28px;
+   font-family: "Anta", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   background-image: radial-gradient(rgb(160, 165, 169),rgb(13, 13, 14));
+   width: max-content;
+   padding: 5px;
+}
+.div1 a{
+       color: aliceblue;
+       text-decoration: none;
+}     
+ .navbar{
+    background-color: aqua;
+    overflow: auto;
+    font-family: "Anta", sans-serif;
+    border-radius: 15px; 
+    margin-top: 5px;
+    
+ }
+ .navbar li{
+    float: left;
+    list-style: none;
+    padding: 5px 2px;
+    margin: 10px 10px;
+    transition: 1s;
+    border-radius: 5px;
+ }
+ .navbar .search{
+    text-align: end;
+    padding: 15px 15px;
+    border-radius: 5px;
+ }
+ .navbar li:hover{
+    transform: scale(0.8);
+    z-index: 2;
+    background-color: rgb(136, 136, 242);
+    color: rgb(239, 234, 226);
+ }
+ .ifr{
+    margin: 10px;
+ }
+ .ifr iframe{
+    width: 100%;
+    height: 400px;
+ }
+ .sec1 h1{
+    padding-left: 20px;
+    color: gainsboro;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: radial-gradient(rgb(160, 165, 169),rgb(13, 13, 14));   
+}
+.sec1 p{
+    margin: 40px;
+    color: bisque;
+    text-align: justify;
+}
+.sec1 img{
+    max-width: 400px;
+    margin-inline: 100px;
+    border: groove 4px rgb(216, 72, 216);
+    box-shadow: 10px 10px 4px rgb(250, 4, 4),-10px -10px 4px rgb(168, 1, 251);
+    border-radius: 60px 20px 60px 20px;
+}
+.sec2 h1{
+    padding-left: 20px;
+    color: gainsboro;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: radial-gradient(rgb(160, 165, 169),rgb(13, 13, 14));   
+ }
+ .sec2 p{
+    margin: 40px;
+    color: bisque;
+    text-align: justify;
+ }
+ .sec2 img{
+    max-width: 300px;
+    margin-left: 200px;
+    border: groove 4px rgb(216, 72, 216);
+    box-shadow: 10px 10px 4px rgb(250, 4, 4),-10px -10px 4px rgb(168, 1, 251);
+    border-radius: 60px 20px 60px 20px;
+ }
+ ::-webkit-scrollbar{
+    display: none;
+ }
